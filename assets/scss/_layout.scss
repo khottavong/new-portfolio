@@ -1,0 +1,50 @@
+// Layout Style
+html, body {
+  height: 100vh;
+}
+
+.page-content {
+  height: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    transition: all 0.25s ease;
+    border-radius: 4px;
+    line-height: 1;
+    margin: 0 0.25rem;
+    &:hover {
+      color: red;
+      background: #fff;
+    }
+  }
+}
+
+.main {
+  background: url('https://images.unsplash.com/photo-1623070680728-82d0c22d8eb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2766&q=80') top center/cover no-repeat;
+  padding: 150px 0;
+  position: relative;
+  min-height: 600px;
+
+  &::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+
