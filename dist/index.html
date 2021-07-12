@@ -8,13 +8,8 @@
     <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <title>My Portfolio</title>
-
-    <!-- Icons for this template -->
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:wght@300;400;700&family=Permanent+Marker&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Icons for this template -->
     <link href="assets/fonts/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/app.min.css">
@@ -22,72 +17,184 @@
 
 <body>
 <!--<div class="page-content d-flex flex-column justify-content-center">-->
-<nav class="navbar navbar-expand bg-transparent">
+<!--<nav class="navbar navbar-expand bg-transparent">-->
 <!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">-->
 <!--        <span class="navbar-toggler-icon"></span>-->
 <!--    </button>-->
 
-        <ul class="navbar-nav text-center d-flex justify-content-center align-items-center mx-auto ">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+<!--        <ul class="navbar-nav text-center d-flex justify-content-center align-items-center mx-auto ">-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">Resume</a>-->
+<!--          </li>-->
+<!--        </ul>-->
 
-</nav>
+<!--</nav>-->
 
-<main role="main" class="main flex-grow-1">
-  <section class="hero">
+<main role="main" class="main">
+  <section class="hero py-5 bg-primary">
     <div class="container">
-      <div class="row">
-        <div class="col"></div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-auto">
+          <span class="h4 text-warning font-weight-lighter">Sean Khottavong</span>
+          <h1 class="display-4 text-white">Web Developer</h1>
+        </div>
+        <div class="col-auto">
+          <div class="hero__img-box">
+            <img class="img-fluid" src="assets/img/profile-img-sm.jpg" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-light py-5">
+  <section class="pt-5">
     <div class="container">
       <div class="row">
         <div class="col text-center">
-          <h2 class="mb-4">Agency Work</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <h3>West Tennessee Healthcare</h3>
-          <p></p>
-        </div>
-        <div class="col-md-6">
-            <img src="dist/assets/img/wth.jpg" alt="West Tennessee Healthcare" class="img-fluid shadow"> <a href="https://wth.org" target="_blank" class="stretched-link"></a>
+          <h2 class="mb-0 text-primary h1">Agency Work</h2>
+          <span>(All designs by The Johnson Group)</span>
         </div>
       </div>
     </div>
   </section>
+
+
   <section class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col text-center">
-          <h2 class="mb-4">Freelance Work</h2>
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/projectp.jpg" alt="Peugeot" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">Peugeot</h3>
+              <p class="card-text">A recent project I built out utilizing Scrolltrigger by Greensock. This project ended up getting scrapped, so it's not mobile responsive, but pretty cool nonetheless. Design by JG. Built by me.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://johngroup.com/projectp/" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <h3>Twigby</h3>
-          <p></p>
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/wth.jpg" alt="West Tennessee Healthcare" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">West Tennessee Healthcare</h3>
+              <p class="card-text">One of the first sites I built out as a junior developer. It utilizes multiple plugins that required extensive customizations in order to achieve the design and functionality goals required by the project. Design by JG. Built by me.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://wth.org" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <img src="dist/assets/img/twigby.jpg" alt="West Tennessee Healthcare" class="img-fluid shadow"> <a href="https://www.twigby.com" target="_blank" class="stretched-link"></a>
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/ruggedroad.jpg" alt="Rugged Road Outdoors" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">Rugged Road Outdoors</h3>
+              <p class="card-text">Site refresh for new marketing campaign. Updated theme to allow support for Shopify's media object to allow for 3D models and videos for the product page. There are several interactive components on the landing page that were all built by me.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://ruggedroadoutdoors.com/pages/landing" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/lineman.jpg" alt="Northwest Lineman College" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">Northwest Lineman College</h3>
+              <p class="card-text">Site refresh and migration from Expression Engine to WordPress. Designs by JG. Built by me.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://lineman.edu" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/sunbelt.jpg" alt="Sunbelt Bakery" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">Sunbelt Bakery</h3>
+              <p class="card-text">Shopify store design update. Design by JG. Built by me.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://shop.sunbeltbakery.com" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/drc.jpg" alt="Driver Resource Center" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">Driver Resource Center</h3>
+              <p class="card-text">Custom WordPress theme and website built from the ground up utilizing Roots Sage 9 and Pantheon.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://driverresourcecenter.com" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+
+
+  <section class="pt-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="mb-0 text-primary h1">Freelance Work</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/twigby.jpg" alt="Twigby.com" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">Twigby</h3>
+              <p class="card-text">This was a site refresh on multiple pages. The project is built on Kahana/Koseven.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.twigby.com" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/bgccha.jpg" alt="Boys and Girls Clubs of Chattanooga" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">Boys & Girls Clubs of Chattanooga</h3>
+              <p class="card-text">Originally a pro-bono project of The Johnson Group. Eventually took over as a freelance client. Utilizes a custom WordPress theme and hosted on Pantheon.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://bgccha.org" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex p-3">
+          <div class="card shadow">
+            <img src="assets/img/tombiblelaw.jpg" alt="Tom Bible Law" class="card-img-top img-fluid work-example__img">
+            <div class="card-body bg-light">
+              <h3 class="h5 work-example__heading card-title">Tom Bible Law</h3>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-footer">
+              <a href="https://tombiblelaw.com" class="btn btn-outline-primary stretched-link btn-block" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
-  <footer class="bg-dark py-4">
+  <footer class="bg-primary py-4">
     <div class="container">
       <div class="row">
         <div class="col text-center">
